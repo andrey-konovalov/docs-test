@@ -14,5 +14,12 @@
 * optee-sdp - `xtest --sdp-basic` (basic SecureDataPlane OPTEE test)
 
 ### Test Results per board
-* [Board One results](board-one.md)
-* [Board Two results](board-two.md)
+* Board One results:
+  - [Latest](board-one.md)
+  - [Last 10](board-one-last10.md)
+* Board Two results:
+  - [Latest](board-two.md)
+  - [Last 10](board-two-last10.md)
+* Board Three results:
+  - [Latest](board-three.md)
+  - [Last 10](board-three-last10.md)

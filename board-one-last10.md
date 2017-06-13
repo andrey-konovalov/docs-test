@@ -1,5 +1,5 @@
 ## Board One
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/am57xx-evm/rpb-wayland/103/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/board-one/rpb-wayland/latest/)
 
 ### Tests description
 * weston1 - OK if weston starts on boot
