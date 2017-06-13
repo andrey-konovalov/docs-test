@@ -1,5 +1,5 @@
 ## Board Two
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/rpb-wayland/104/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/rpb-wayland/105/)
 
 ### Tests description
 * weston1 - OK if weston starts on boot
@@ -12,4 +12,4 @@
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 104 | OK | 60 fps | 150..151 fps | 1Hz, 71..72% CPU idle | OK | 38..54% CPU idle | 18..21 fps, 75..84% CPU idle |
+| 105 | OK | 60 fps | 149..152 fps | 1Hz, 71% CPU idle | OK | 38..52% CPU idle | 19..23 fps, 80..85% CPU idle |
