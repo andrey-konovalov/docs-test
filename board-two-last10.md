@@ -12,6 +12,7 @@
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 117 | OK | 60 fps | 152..153 fps | 32..48% CPU idle | OK | 35..57% CPU idle | 18..20 fps, 52..84% CPU idle |
 | 116 | OK | 60 fps | 151..153 fps | 31..48% CPU idle | OK | 37..62% CPU idle | 18..20 fps, 62..83% CPU idle |
 | 115 | OK | 60 fps | 151..152 fps | new cmdline, 32..61% CPU idle | OK | 33..60% CPU idle | 18..21 fps, 64..83% CPU idle |
 | 108 | OK | 60 fps | 152..153 fps | 1Hz, 70..71% CPU idle | OK | 34..54% CPU idle | 18..20 fps, 70..82% CPU idle |

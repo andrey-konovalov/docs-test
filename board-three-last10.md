@@ -17,6 +17,7 @@ This board has no sound.
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 | chromium4 | optee-generic | optee-sdp |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 117 | OK | 53..57 fps | 158..212 fps | 60..76% CPU idle | OK | 62..74% CPU idle | 50..57 fps, 76..81% CPU idle | OK | OK | OK |
 | 116 | OK | 56..58 fps | 158..188 fps | 60..83% CPU idle | OK | 60..74% CPU idle | 51..57 fps, 72..81% CPU idle | OK | OK | OK |
 | 115 | OK | 46..58 fps | 162..218 fps | 60..75% CPU idle | OK | 63..73% CPU idle | 49..59 fps, 76..81% CPU idle | OK | OK | OK |
 | 108 | OK | 53..54 fps | 158..201 fps | 62..76% CPU idle | OK | 55..73% CPU idle | 50..56 fps, 75..82% CPU idle | OK | OK | OK |
