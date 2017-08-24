@@ -1,4 +1,6 @@
-## gst-wayland1 test
+## gst-wayland410hw test
+
+Uses venus engine for hw decoding.
 
 ```
 gst-launch-1.0 -v filesrc location=ToS-4k-1920.mov ! qtdemux name=d d. ! h264parse ! v4l2video0dec capture-io-mode=dmabuf ! videoconvert ! waylandsink d. ! queue ! aacparse ! avdec_aac ! audioconvert ! audio/x-raw,format=S16LE ! alsasink

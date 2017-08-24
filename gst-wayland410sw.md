@@ -1,4 +1,7 @@
-## gst-wayland1 test
+## gst-wayland410sw test
+
+Software decoding test for db410c
+
 
 ```
 gst-launch-1.0 filesrc location=ToS-4k-1920.mov ! qtdemux name=d d. ! h264parse ! avdec_h264 ! videoconvert ! waylandsink d. ! queue ! aacparse ! avdec_aac ! audioconvert ! audio/x-raw,format=S16LE ! alsasink
