@@ -1,15 +1,16 @@
 ## Board Two
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/rpb-wayland/117/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/rpb-wayland/138/)
 
 ### Tests description
 * weston1 - OK if weston starts on boot
 * simple-egl1 - `weston-simple-egl -f`
 * simple-egl2 - `weston-simple-egl -f -b`
-* [gst-wayland410sw](gst-wayland410sw.md) - play a video file with playbin and waylandsink
+* [gst-wayland410sw](gst-wayland410sw.md) - play a video file with waylandsink
+* [gst-wayland410hw](gst-wayland410hw.md) - play a video file with waylandsink using venus hw decoding
 * [chromium1](chromium1.md) - start chromium w/o URI specified in the command line
 * [chromium2](chromium2.md) - play a video from youtube
 * [chromium3](chromium3.md) - `webgl_morphtargets_horse` example from threejs.org
 
-| Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 |
+| Build no. | weston1 | simple-egl1 | simple-egl2 | gst-waylandsw | gst-waylandhw  | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 117 | OK | 60 fps | 152..153 fps | 32..48% CPU idle | OK | 35..57% CPU idle | 18..20 fps, 52..84% CPU idle |
+| 138 | OK | 60 fps | 150..151 fps | 33..50% CPU idle | 76..77% CPU idle, 100 venus ints/sec | OK | 17..34% CPU idle | 18..20 fps, 74..83% CPU idle |
