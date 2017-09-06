@@ -12,5 +12,5 @@
 * [chromium3](chromium3.md) - `webgl_morphtargets_horse` example from threejs.org
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-waylandsw | gst-waylandhw  | chromium1 | chromium2 | chromium3 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 143 | OK | 60 fps | 136..149 fps | 33..51% CPU idle | 76..78% CPU idle, 100 venus ints/sec | OK | 35..49% CPU idle | NG: "Rats! WebGL hit a snag." |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 143 | OK | 60 fps | 136..149 fps | 33..51% CPU idle | 76..78% CPU idle, 100 venus ints/sec | OK | 35..49% CPU idle | NG: "Rats! WebGL hit a snag" |
