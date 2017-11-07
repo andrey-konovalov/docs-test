@@ -1,5 +1,5 @@
 ## Board One
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/am57xx-evm/rpb-wayland/146/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/am57xx-evm/176/rpb-wayland/)
 
 ### Tests description
 * weston1 - OK if weston starts on boot
@@ -12,4 +12,4 @@
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | OK | 60 fps | 60 fps | 7..26% CPU idle | OK | 5..43% CPU idle | 59..60 fps, 49-78% CPU idle |
+| 176 | OK | 60 fps | 60 fps | 2..25% CPU idle | OK | 3..38% CPU idle | 58..60 fps, 68-78% CPU idle |

@@ -1,5 +1,5 @@
 ## Board Three
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/hikey/rpb-wayland/146/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/hikey/176/rpb-wayland/)
 
 This board has no sound.
 
@@ -17,4 +17,4 @@ This board has no sound.
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 | chromium4 | optee-generic | optee-sdp |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | OK | 55..57 fps | 148..227 fps | 61..74% CPU idle | OK | 47..68% CPU idle | 48..56 fps, 74..81% CPU idle | OK | OK | OK |
+| 176 | OK | 49..57 fps | 155..231 fps | 61..70% CPU idle | OK | 43..69% CPU idle | 51..58 fps, 78..82% CPU idle | OK | OK | OK |
