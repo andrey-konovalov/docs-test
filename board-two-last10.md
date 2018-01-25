@@ -13,6 +13,7 @@
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-waylandsw | gst-waylandhw  | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 215 | OK | 60 fps | 148..149 fps | 33..51% CPU idle | 76..77% CPU idle, 60 venus ints/sec | OK | 16..34% CPU idle | NG: "Rats! WebGL hit a snag"  |
 | 189 | OK | 60 fps | 144..149 fps | 34..39% CPU idle | 76..77% CPU idle, 60 venus ints/sec | OK | 19..47% CPU idle | NG: "Rats! WebGL hit a snag"  |
 | 182 | OK | 60 fps | 144..149 fps | 31..38% CPU idle | 76..77% CPU idle, 60 venus ints/sec | OK | 26..56% CPU idle | NG: "Rats! WebGL hit a snag"  |
 | 176 | OK | 60 fps | 140..150 fps | 33..38% CPU idle | 76..77% CPU idle, 60 venus ints/sec | OK | 19..53% CPU idle | NG: GPU process silently crashes |
@@ -22,4 +23,3 @@
 | 117 | OK | 60 fps | 152..153 fps | 32..48% CPU idle | | OK | 35..57% CPU idle | 18..20 fps, 52..84% CPU idle |
 | 116 | OK | 60 fps | 151..153 fps | 31..48% CPU idle | | OK | 37..62% CPU idle | 18..20 fps, 62..83% CPU idle |
 | 115 | OK | 60 fps | 151..152 fps | new cmdline, 32..61% CPU idle | | OK | 33..60% CPU idle | 18..21 fps, 64..83% CPU idle |
-| 108 | OK | 60 fps | 152..153 fps | 1Hz, 70..71% CPU idle | | OK | 34..54% CPU idle | 18..20 fps, 70..82% CPU idle |
