@@ -1,5 +1,5 @@
 ## Board Two
-[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/215/rpb-wayland/)
+[Pre-built images at snapshots.l.o](http://snapshots.linaro.org/openembedded/pre-built/lhg/morty/dragonboard-410c/234/rpb-wayland/)
 
 ### Tests description
 * weston1 - OK if weston starts on boot
@@ -13,4 +13,4 @@
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-waylandsw | gst-waylandhw  | chromium1 | chromium2 | chromium3 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 215 | OK | 60 fps | 148..149 fps | 33..51% CPU idle | 76..77% CPU idle, 60 venus ints/sec | OK | 16..34% CPU idle | NG: "Rats! WebGL hit a snag"  |
+| 234 | OK | 60 fps | 144..149 fps | 34..49% CPU idle | 77% CPU idle, 60 venus ints/sec | OK | 11..55% CPU idle | NG: "Rats! WebGL hit a snag"  |

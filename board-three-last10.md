@@ -17,6 +17,7 @@ This board has no sound.
 
 | Build no. | weston1 | simple-egl1 | simple-egl2 | gst-wayland1 | chromium1 | chromium2 | chromium3 | chromium4 | optee-generic | optee-sdp |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 234 | OK | 35..53 fps | Aborted (core dumped) | 60..74% CPU idle | OK | 44..73% CPU idle | 47..58 fps, 75..80% CPU idle | OK | OK | OK |
 | 215 | OK | 35..53 fps | Aborted (core dumped) | 61..76% CPU idle | OK | 50..68% CPU idle | 54..60 fps, 78..81% CPU idle | OK | OK | OK |
 | 189 | OK | 34..51 fps | Aborted (core dumped) | 61..66% CPU idle | OK | 48..71% CPU idle | 51..60 fps, 77..81% CPU idle | OK | OK | OK |
 | 182 | OK | 52..57 fps | 156..214 fps | 61..66% CPU idle | OK | 48..73% CPU idle | 51..59 fps, 77..82% CPU idle | OK | OK | OK |
@@ -26,4 +27,3 @@ This board has no sound.
 | 138 | OK | 54..59 fps | 181..225 fps | 58..72% CPU idle | OK | 62..80% CPU idle | 48..58 fps, 75..81% CPU idle | OK | OK | OK |
 | 117 | OK | 53..57 fps | 158..212 fps | 60..76% CPU idle | OK | 62..74% CPU idle | 50..57 fps, 76..81% CPU idle | OK | OK | OK |
 | 116 | OK | 56..58 fps | 158..188 fps | 60..83% CPU idle | OK | 60..74% CPU idle | 51..57 fps, 72..81% CPU idle | OK | OK | OK |
-| 115 | OK | 46..58 fps | 162..218 fps | 60..75% CPU idle | OK | 63..73% CPU idle | 49..59 fps, 76..81% CPU idle | OK | OK | OK |
